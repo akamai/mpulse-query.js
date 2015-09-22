@@ -1,39 +1,47 @@
 {
-  "name": "mpulse-query",
-  "version": "1.0.0",
-  "description": "SOASTA mPulse Query REST API interface for Javascript",
-  "main": "./lib/model/mPulse.js",
-  "dependencies": {
-    "commander": "^2.8.1",
-    "grunt": "^0.4.5",
-    "lodash": "^3.10.1",
-    "soasta-repository": "^0.0.1",
-    "winston": "^1.0.1"
-  },
-  "devDependencies": {
-    "assertive-chai": "^2.0.1",
-    "grunt-bower-task": "^0.4.0",
-    "grunt-jsdoc": "^0.6.8",
-    "grunt-mocha-test": "^0.12.7",
-    "gruntify-eslint": "^1.0.1",
-    "mocha": "^2.3.2"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SOASTA/mpulse-query.js.git"
-  },
-  "keywords": [
-    "mPulse",
-    "SOASTA",
-    "API"
-  ],
-  "author": "Andreas Marschke <amarschke@soasta.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SOASTA/mpulse-query.js/issues"
-  },
-  "homepage": "https://github.com/SOASTA/mpulse-query.js"
+    "name": "mpulse-query",
+    "version": "1.0.0",
+    "description": "SOASTA mPulse Query REST API interface for Javascript",
+    "main": "./lib/model/mPulse.js",
+    "private": true,
+    "scripts": {
+        "dependecies": "npm install && git clone https://github.com/SOASTA/repository.js node_modules/soasta-repository"
+    },
+    "dependencies": {
+        "commander": "^2.8.1",
+        "grunt": "^0.4.5",
+        "lodash": "^3.10.1",
+        "soasta-repository": "^0.0.1",
+        "winston": "^1.0.1"
+    },
+    "devDependencies": {
+        "assertive-chai": "^2.0.1",
+        "grunt-bower-task": "^0.4.0",
+        "grunt-jsdoc": "^0.6.8",
+        "grunt-mocha-test": "^0.12.7",
+        "gruntify-eslint": "^1.0.1",
+        "mocha": "^2.3.2"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SOASTA/mpulse-query.js.git"
+    },
+    "keywords": [
+        "mPulse",
+        "SOASTA",
+        "API"
+    ],
+    "author": "Andreas Marschke <amarschke@soasta.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SOASTA/mpulse-query.js/issues"
+    },
+    "homepage": "https://github.com/SOASTA/mpulse-query.js"
 }
+
+
+
+
