@@ -1,6 +1,6 @@
 {
 	"name": "mpulse-query",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "SOASTA mPulse Query REST API interface for Javascript",
 	"main": "./lib/model/mPulse.js",
 	"bin": {
@@ -10,7 +10,7 @@
 	"dependencies": {
 		"commander": "^2.8.1",
 		"lodash": "^3.10.1",
-		"soasta-repository": "^0.0.1",
+		"soasta-repository": "^1.0.0",
 		"winston": "^1.0.1"
 	},
 	"devDependencies": {
