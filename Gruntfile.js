@@ -21,28 +21,6 @@ var mochaTestFiles = [
 ];
 
 /**
- * @constant jsdocSourceFiles
- * @memberof BuildConfiguration
- * @type {String[]}
- * @desc
- * Array of file sources to generate the documentation from
- */
-var jsdocSourceFiles = [
-    "lib/**/*.js",
-    "./*.js",
-    "node_modules/soasta-repository/lib/**/*.js"
-];
-
-/**
- * @constant jsdocTutorialPath
- * @memberof BuildConfiguration
- * @type {string}
- * @desc
- * Directory containing tutorials and other documentation not to be distributed as source code files
- */
-var jsdocTutorialPath = "doc/tutorials";
-
-/**
  * @constant sourcePaths
  * @memberof BuildConfiguration
  * @type {string[]}
