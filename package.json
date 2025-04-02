@@ -8,18 +8,18 @@
 	},
 	"private": false,
 	"dependencies": {
-		"commander": "^2.8.1",
-		"lodash": "^3.10.1",
-		"soasta-repository": "^1.0.0",
-		"winston": "^1.0.1"
+		"commander": "^13.1.0",
+		"lodash": "^4.17.21",
+		"soasta-repository": "^2.1.14",
+		"winston": "^3.17.0"
 	},
 	"devDependencies": {
-		"assertive-chai": "^2.0.1",
-		"grunt": "^0.4.5",
-		"grunt-jsdoc": "^0.6.8",
-		"grunt-mocha-test": "^0.12.7",
-		"gruntify-eslint": "^1.0.1",
-		"mocha": "^2.3.2"
+		"assertive-chai": "^1.0.2",
+		"eslint": "^9.23.0",
+		"grunt": "^1.6.1",
+		"grunt-mocha-test": "^0.13.3",
+		"gruntify-eslint": "^5.0.0",
+		"mocha": "^11.1.0"
 	},
 	"scripts": {
 		"test": "grunt test"
